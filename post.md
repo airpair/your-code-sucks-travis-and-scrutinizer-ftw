@@ -100,7 +100,7 @@ For the sake of learning we're going to use Laravel as the test subject.
 	    
 	  script: vendor/bin/phpunit```
 	  
-	This is your config file for Travis. Here we've specified which versions of PHP we want to build our project on and also install `composer` libraries. By default, Travis calls `phpunit` for php projects. For each language there are default build steps (i.e. ruby projects call rake). Everything is optional except the `language` key.
+	This is your config file for Travis. Here we've specified which versions of PHP we want to build our project on and also install `composer` libraries. By default, Travis calls `phpunit` for PHP projects. For each language there are default build steps (e.g. Ruby projects call rake). Everything is optional except the `language` key.
 
 7. **(optional)** Click on the build image to get a snippet that you could put in your repository's README as a badge. This image will be green or red automatically depending if the build was successful or not. It's one of the first things people usually see when they go to your project's GitHub repository.
 
@@ -109,8 +109,8 @@ For the sake of learning we're going to use Laravel as the test subject.
 There's different ways of triggering a build.
 
 * Pushing to the repo
-* Adding a pull request to the main repo
-* You can also re-run a job, but I could never find a case for it though. Seems like this would only be used occasionally (i.e. intermittent network problems with external dependencies).
+* Adding a pull request (PR) to the main repo
+* You can also re-run a job, but I could never find a case for it though. Seems like this would only be used occasionally (e.g. intermittent network problems with external dependencies).
 
 ### Go green or Go Home
 
@@ -214,8 +214,8 @@ Scrutinizer is a Static Analysis service that checks your code's quality and nea
 ### How to Trigger
 
 *  Push to repo
+*  Add a PR against the repo
 *  Manually run
-*  Scheduled
 
 ### Highly Configurable
 
