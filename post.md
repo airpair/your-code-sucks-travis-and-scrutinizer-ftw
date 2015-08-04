@@ -26,7 +26,7 @@ Having high code quality is not just something "shiny" to add to your toolbox; i
 
 We'll go through some of these more in detail.
 
-If you want to make it easier for others to work on and/or use the code you've written than you _should_ be paying attention to how you write it. It doesn't matter if it makes sense _to you_. You need to ask yourself, "Does my code makes sense to everyone else that's reading it?" After all, unless you're writing in assembly language or binary, you're writing code _for humans_.
+If you want to make it easier for others to work on and/or use the code you've written than you _should_ be paying attention to how you write it. It doesn't matter if it makes sense _to you_. You need to ask yourself, "Does my code makes sense to _everyone else_ that's reading it?" After all, unless you're writing in assembly language or binary, you're writing code _for humans_.
 
 The reason some applications grow into a mess and get hard to maintain is because of low code quality. That normally translates to applications that are fragile, slow to add additional features to, and frequently contain bugs that make it to your end users. If you've outsourced software development for cheap labor you are well-acquainted with this problem. Companies are careful investing into developing software that's not stable and can't align with business goals.
 
